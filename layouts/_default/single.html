@@ -6,6 +6,7 @@
             <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
             {{ partial "article-header" . }}
             {{ .Content}}
+            {{ partial "adsense" . }}
             {{ partial "article-share" . }}
         </article>
         <div class="comments">
@@ -14,7 +15,6 @@
         </div>
     </main>
     {{ partial "author" . }}
-    {{ partial "adsense" . }}
 </div>
 
 {{ partial "footer" . }}
