@@ -40,6 +40,9 @@ section,
 summary {
   display: block; }
 
+blockquote {
+  font-style: italic;
+}
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
@@ -109,9 +112,13 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
+h1, h2 {
+  font-weight: 700;
+}
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /**
  * Address styling not present in IE 8/9.
@@ -759,6 +766,12 @@ body.post-template .site-header h2 .logo {
   }
 }
 @media only screen and (max-width: 719px) {
+  h1 {
+    font-size: inherit;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
   .container {
     width: 90%;
     padding-top: 25px; }
@@ -783,6 +796,12 @@ body.post-template .site-header h2 .logo {
   .site-header h2 {
     font-size: 36px;
     background-size: 90px 74px; } }
+@media screen and (min-width:1024px) {
+  .post img {
+    display: block;
+    max-width: 620px;
+  }
+}
 .ir {
   background-color: transparent;
   border: 0;
