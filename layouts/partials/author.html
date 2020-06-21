@@ -7,7 +7,7 @@
       <p class="name">{{ .Site.Data.l10n.author.by }} 
         <strong>{{ .Site.Params.site_author }}</strong>
       </p>
-      <p class="introduction">{{ .Site.Params.introduction }}</p>
+      <p class="introduction">{{ with .Site.Params.introduction }}{{ . | safeHTML }}{{ end }}</p>
       <p class="address">{{ .Site.Params.location }}</p>
       <ul class="social">
         {{ partial "social" . }}
