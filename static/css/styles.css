@@ -696,11 +696,12 @@ hr {
 .author p {
   margin: 0;
   padding: 0;
-  font-size: 12px; }
+  font-size: 12px;
+  margin: 10px 0;
+}
 
 .author p.name {
   font-size: 14px;
-  margin: 10px 0;
 }
 
 .author p.address {
@@ -715,7 +716,6 @@ hr {
   justify-content: center;
   list-style: none;
   padding: 0;
-  margin: 10px 0;
 }
 
 .author ul.social li {
