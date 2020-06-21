@@ -486,9 +486,8 @@ hr {
   padding: 50px 0 0 0; }
 
 .author {
-  text-align: center;
-  width: 25%;
-  margin: 20px 5% 0px 5%; }
+  margin: 50px 0 60px;
+}
 
 .content {
   width: 60%;
@@ -544,8 +543,6 @@ hr {
 .profile-contents {
   display: flex;
   flex-direction: column;
-}
-.profile-image-wrapper {
 }
 .profile-content {
   text-align: center;
