@@ -1,11 +1,11 @@
 <div class="container">
     <main role="main" class="content">
-        {{ partial "author" . }}
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
         {{ range $paginator.Pages }}
             {{ .Render "summary" }}
         {{ end }}
         {{ partial "adsense_list" . }}
         {{ partial "pagination" . }}
+        {{ partial "author" . }}
     </main>
 </div>

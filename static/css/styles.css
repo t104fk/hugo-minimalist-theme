@@ -541,9 +541,14 @@ hr {
   -moz-border-radius: 100%;
   border-radius: 100%; }
 
+.profile-contents {
+  display: flex;
+  flex-direction: column;
+}
 .profile-image-wrapper {
 }
 .profile-content {
+  text-align: center;
 }
 .post h2 {
   margin-top: 0; }
@@ -679,9 +684,9 @@ hr {
   color: #979797; }
 
 .author {
-  font-family: "Roboto", sans-serif;
   font-weight: 300;
   display: flex;
+  justify-content: center;
 }
 
 .author p {
@@ -691,18 +696,23 @@ hr {
 
 .author p.name {
   font-size: 14px;
-  margin: 10px 0; }
+  margin: 10px 0;
+}
 
 .author p.address {
-  color: #979797; }
+  color: #979797;
+}
 
 .author p.link {
   margin-bottom: 10px; }
 
 .author ul.social {
+  display: flex;
+  justify-content: center;
   list-style: none;
-  display: inline;
-  padding: 0; }
+  padding: 0;
+  margin: 10px 0;
+}
 
 .author ul.social li {
   display: inline; }
