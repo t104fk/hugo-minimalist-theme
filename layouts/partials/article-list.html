@@ -1,5 +1,6 @@
 <div class="container clearfix">
     <main role="main" class="content">
+        {{ partial "author" . }}
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
         {{ range $paginator.Pages }}
             {{ .Render "summary" }}
@@ -7,6 +8,4 @@
         {{ partial "adsense_list" . }}
         {{ partial "pagination" . }}
     </main>
-
-    {{ partial "author" . }}
 </div>
