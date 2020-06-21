@@ -492,6 +492,7 @@ hr {
 
 .content {
   width: 60%;
+  margin: 0 auto;
 }
 
 .site-header {

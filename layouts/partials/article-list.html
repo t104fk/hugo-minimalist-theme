@@ -1,4 +1,4 @@
-<div class="container clearfix">
+<div class="container">
     <main role="main" class="content">
         {{ partial "author" . }}
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
