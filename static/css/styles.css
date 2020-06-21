@@ -571,7 +571,9 @@ hr {
 
 .post img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  margin: 1em auto;
+}
 
 .post-info {
   color: #a2a2a2;
