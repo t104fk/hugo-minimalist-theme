@@ -766,8 +766,9 @@ body.post-template .site-header h2 .logo {
     width: 100%;
     margin: 0; }
 
-  .author {
-    margin-bottom: 60px; }
+  .author .profile-image {
+    width: 60%;
+  }
 
   .site-header,
   body.post-template > .site-header {
