@@ -700,7 +700,7 @@ hr {
   margin: 10px 0;
 }
 
-.author p.name {
+.author p.name, .author p.introduction {
   font-size: 14px;
 }
 
