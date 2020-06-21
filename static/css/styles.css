@@ -551,6 +551,7 @@ hr {
   flex-direction: column;
 }
 .profile-content {
+  margin-top: 20px;
   text-align: center;
 }
 .post h2 {
