@@ -492,7 +492,6 @@ hr {
 
 .content {
   width: 60%;
-  margin-right: 5%;
 }
 
 .site-header {
@@ -541,6 +540,10 @@ hr {
   -moz-border-radius: 100%;
   border-radius: 100%; }
 
+.profile-image-wrapper {
+}
+.profile-content {
+}
 .post h2 {
   margin-top: 0; }
 
@@ -676,7 +679,9 @@ hr {
 
 .author {
   font-family: "Roboto", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  display: flex;
+}
 
 .author p {
   margin: 0;
