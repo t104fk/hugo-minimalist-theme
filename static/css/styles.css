@@ -801,6 +801,7 @@ body.post-template .site-header h2 .logo {
   .post img {
     display: block;
     max-width: 620px;
+    max-height: 320px;
   }
 }
 .ir {
