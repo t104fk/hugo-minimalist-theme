@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js">
     <head>
+        {{ partial "analytics" . }}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
