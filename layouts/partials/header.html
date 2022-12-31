@@ -24,6 +24,9 @@
         {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | absURL }}">
         {{ end }}
+        {{ if .Params.canonicalUrl }}
+        <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+        {{ end }}
         <style>
         .site-header h2 .logo {
         background: url({{ .Site.Params.header_background | absURL }}) no-repeat 0 0;
